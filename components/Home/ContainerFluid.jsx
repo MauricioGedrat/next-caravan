@@ -1,13 +1,14 @@
-import React from "react";
-import { FormControl, Button, InputGroup } from "react-bootstrap";
-import ComponentCarousel from "./Carousel";
+import React from 'react'
+import { FormControl, Button, InputGroup } from 'react-bootstrap'
+import ComponentCarousel from './Carousel'
 
 const ContainerFluid = () => {
   return (
     <section className="container-fluid p-0">
-
       <div className="row g-0 bg-secondary text-white">
-        <div className="col-lg-7 "><ComponentCarousel/></div>
+        <div className="col-lg-7 ">
+          <ComponentCarousel />
+        </div>
         <div className="col-lg-5 p-5 align-self-center">
           <h1 className="display-4">Realize a viagem do seu sonho</h1>
           <p className="lead">
@@ -31,7 +32,7 @@ const ContainerFluid = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ContainerFluid;
+export default ContainerFluid
