@@ -33,7 +33,7 @@ const AppModal = () => {
               type='password'
             />
           </InputGroup>
-          <button type="button" class="btn btn-outline-dark">Entrar</button>
+          <button type="button" className="btn btn-outline-dark">Entrar</button>
           <p className='text-muted my-1'>Esqueceu a senha? <a href="#" className='text-info'>Clique aqui</a></p>
         </Modal.Body>
       </Modal>
