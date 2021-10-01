@@ -27,7 +27,7 @@ const Galery = () => {
         <h2 className="display-4 text-primary">Descubra Dublin</h2>
       </div>
       <div className="row text-center">
-        <div className="col">
+        <div className="col-md">
           <Image
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg1}
@@ -39,15 +39,35 @@ const Galery = () => {
             src={GaleryImg2}
             onClick={(e) => openModal(<Image src={GaleryImg2} />)}
           />
-          <Image className="img-fluid mb-4 GaleryImage" src={GaleryImg3} />
+          <Image
+            className="img-fluid mb-4 GaleryImage"
+            src={GaleryImg3}
+            onClick={(e) => openModal(<Image src={GaleryImg3} />)}
+          />
         </div>
-        <div className="col">
-          <Image className="img-fluid mb-4 GaleryImage" src={GaleryImg4} />
-          <Image className="img-fluid mb-4 GaleryImage" src={GaleryImg5} />
+        <div className="col-md">
+        <Image
+            className="img-fluid mb-4 GaleryImage"
+            src={GaleryImg4}
+            onClick={(e) => openModal(<Image src={GaleryImg4} />)}
+          />
+          <Image
+            className="img-fluid mb-4 GaleryImage"
+            src={GaleryImg5}
+            onClick={(e) => openModal(<Image src={GaleryImg5} />)}
+          />
         </div>
-        <div className="col">
-          <Image className="img-fluid mb-4 GaleryImage" src={GaleryImg6} />
-          <Image className="img-fluid mb-4 GaleryImage" src={GaleryImg7} />
+        <div className="col-md">
+        <Image
+            className="img-fluid mb-4 GaleryImage"
+            src={GaleryImg6}
+            onClick={(e) => openModal(<Image src={GaleryImg6} />)}
+          />
+          <Image
+            className="img-fluid mb-4 GaleryImage"
+            src={GaleryImg7}
+            onClick={(e) => openModal(<Image src={GaleryImg7} />)}
+          />
         </div>
       </div>
 

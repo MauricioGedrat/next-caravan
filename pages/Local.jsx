@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Galery from './../components/Local/Galery'
 import AppNavbar from '../components/Home/Navbar'
+import Footer from '../components/Home/Footer'
+import AppTable from '../components/Local/AppTable'
 
 const Local = () => {
   return (
@@ -11,6 +13,8 @@ const Local = () => {
       </Head>
       <AppNavbar />
       <Galery />
+      <AppTable/>
+      <Footer/>
     </div>
   )
 }

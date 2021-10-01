@@ -20,7 +20,7 @@ const AppNavbar = () => {
 
             <Navbar.Collapse id="responsive-navbar-nav">
               {' '}
-              <Nav.Link eventKey={2} href="/Inscrever">
+              <Nav.Link eventKey={2} href="/Subscribe">
                 <Button variant="outline-danger">Inscreva-se</Button>{' '}
               </Nav.Link>
               <Nav className="me-auto">
@@ -42,7 +42,7 @@ const AppNavbar = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/Planos">Planos</Nav.Link>
-                <Nav.Link href="/Contato">Contato</Nav.Link>
+                <Nav.Link href="/Contact">Contato</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link href="#">

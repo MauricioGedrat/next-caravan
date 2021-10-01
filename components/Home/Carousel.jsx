@@ -9,21 +9,21 @@ const ComponentCarousel = () => {
     <div>
       <Carousel>
         <Carousel.Item>
-          <Image src={Img1} className="d-block" />
+          <Image src={Img1} className="d-block" layout="responsive"/>
 
           <Carousel.Caption>
             <h1 className="display-4">Califórnia</h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <Image src={Img2} />
+          <Image src={Img2} layout="responsive"/>
 
           <Carousel.Caption>
             <h1 className="display-4">Paris</h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <Image src={Img3} />
+          <Image src={Img3} layout="responsive"/>
 
           <Carousel.Caption>
             <h1 className="display-4">Dublin</h1>

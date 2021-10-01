@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white">
+    <footer className="bg-dark text-white mt-5">
       <div className="container py-4">
         <div className="row">
           <div className="col-md-3 col-6">
@@ -13,10 +13,10 @@ const Footer = () => {
                 <Link href="/Planos">Planos</Link>
               </li>
               <li>
-                <Link href="/Contato">Contato</Link>
+                <Link href="/Contact">Contato</Link>
               </li>
               <li>
-                <Link href="/Inscrever">Incrição</Link>
+                <Link href="/Subscribe">Incrição</Link>
               </li>
             </ul>
           </div>
