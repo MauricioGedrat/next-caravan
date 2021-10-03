@@ -8,10 +8,10 @@ const AppNavbar = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg bg-dark navbar-light fixed-top"
-        style={{ boxShadow: '2px 2px 2px 0 rgba(12, 12, 12, 0.39)' }}
+        className="navbar navbar-expand-lg bg-light navbar-light fixed-top box-shadow"
+       
       >
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
           <Container>
             <Navbar.Brand href="/">
               <Caravan />

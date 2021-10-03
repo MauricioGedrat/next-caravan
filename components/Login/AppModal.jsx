@@ -10,7 +10,7 @@ const AppModal = () => {
   return (
     <>
       <Button
-        className="btn btn-outline-secondary bg-transparent"
+        className="btn btn-outline-secondary bg-dark"
         onClick={handleShow}
       >
         Login
