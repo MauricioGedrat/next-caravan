@@ -48,8 +48,8 @@ const ContactForm = () => {
         <div className="col-lg">
           <h2 className="h6">NOSSO ENDEREÇO</h2>
           <div className="img-fluid box-shadow mb-4" style={{cursor:'pointer'}}>
-            <Image  src={ImageMap}
-            onClick={(e) => openModal(<Image src={ImageMap} />)} layout="responsive" className="rounded" />
+            <Image  src={ImageMap} alt='Mapa'
+            onClick={(e) => openModal(<Image src={ImageMap} alt='Mapa'/>)} layout="responsive" className="rounded" />
           </div>
 
           <h4 className="h6">DADOS DE CONTATO</h4>

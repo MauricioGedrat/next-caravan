@@ -29,44 +29,51 @@ const Galery = () => {
       <div className="row text-center">
         <div className="col-md">
           <Image
+            alt="galery"
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg1}
-            onClick={(e) => openModal(<Image src={GaleryImg1} />)}
+            onClick={(e) => openModal(<Image src={GaleryImg1} alt="galery" />)}
           />
 
           <Image
+            alt="galery"
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg2}
-            onClick={(e) => openModal(<Image src={GaleryImg2} />)}
+            onClick={(e) => openModal(<Image src={GaleryImg2} alt="galery" />)}
           />
           <Image
+            alt="galery"
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg3}
-            onClick={(e) => openModal(<Image src={GaleryImg3} />)}
+            onClick={(e) => openModal(<Image src={GaleryImg3} alt="galery" />)}
           />
         </div>
         <div className="col-md">
-        <Image
+          <Image
+            alt="galery"
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg4}
-            onClick={(e) => openModal(<Image src={GaleryImg4} />)}
+            onClick={(e) => openModal(<Image src={GaleryImg4} alt="galery" />)}
           />
           <Image
+            alt="galery"
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg5}
-            onClick={(e) => openModal(<Image src={GaleryImg5} />)}
+            onClick={(e) => openModal(<Image src={GaleryImg5} alt="galery" />)}
           />
         </div>
         <div className="col-md">
-        <Image
+          <Image
+            alt="galery"
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg6}
-            onClick={(e) => openModal(<Image src={GaleryImg6} />)}
+            onClick={(e) => openModal(<Image src={GaleryImg6} alt="galery" />)}
           />
           <Image
+            alt="galery"
             className="img-fluid mb-4 GaleryImage"
             src={GaleryImg7}
-            onClick={(e) => openModal(<Image src={GaleryImg7} />)}
+            onClick={(e) => openModal(<Image src={GaleryImg7} alt="galery" />)}
           />
         </div>
       </div>

@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-primary text-center py-3">
-        <p className="mb-0">Caravan © 2017. Alguns direitos reservados.</p>
+        <p className="mb-0">Caravan © 2021. Alguns direitos reservados.</p>
       </div>
     </footer>
   )

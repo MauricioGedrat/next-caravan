@@ -18,7 +18,7 @@ const Galery1Modal = () => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Image src={Galery1Img} />
+          <Image src={Galery1Img} alt="galery" />
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>Close</Button>
